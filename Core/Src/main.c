@@ -764,7 +764,7 @@ HAL_Init();
 		  }
 	  }
 
-	  if (S.CAN_MSG == RAMPDOWN_STOP){
+	  /*if (S.CAN_MSG == RAMPDOWN_STOP){
 		  if (S.motorState == RUN_STATE){
 			  S.CAN_MSG = NO_MSG;
 			  if (RM.controlType == OPEN_LOOP){
@@ -797,7 +797,7 @@ HAL_Init();
 			 S.CAN_MSG = NO_MSG;
 		  }
 
-	  }
+	  }*/
 
     /* USER CODE END WHILE */
 
